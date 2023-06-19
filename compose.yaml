@@ -1,0 +1,19 @@
+services:
+  app:
+    build: .
+    volumes:
+      - ./:/root/take_home_project
+    #command: ["python", "app.py"]
+    command: ["streamlit", "run", "app.py", "--server.port=8888", "--server.address=0.0.0.0"]
+    ports:
+      - "8888:8888"
+    env_file:
+      - ./local.env
+  postgres:
+    image: postgres:15.2
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    env_file:
+      - ./local.env
+    ports:
+      - "5432:5432"
