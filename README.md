@@ -1,4 +1,4 @@
-# Ark Summer 2023 Software Engineering Internship Take Home Project
+Bioreactor Dashboard
 
 ## Introduction
 
