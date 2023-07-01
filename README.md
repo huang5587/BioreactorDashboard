@@ -20,4 +20,4 @@ At this point the project should be accessible by navigating to http://localhost
 ![image](https://github.com/huang5587/BioreactorDashboard/assets/65338691/694c537f-e409-4292-88b9-989e20b62839)
 ## Motivations
 
-This project was undertaken to gain experience with the deploying and maintaing with Docker, and also exploring the python Streamlit library for full-stack web applicatons.
+This project was undertaken to gain experience with deploying and maintaining a project with Docker, and also exploring the python Streamlit library for full-stack web applicatons.
